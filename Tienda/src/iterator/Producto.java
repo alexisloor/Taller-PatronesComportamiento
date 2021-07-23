@@ -5,6 +5,8 @@
  */
 package iteratorpattern;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Alexis
@@ -16,6 +18,8 @@ public class Producto {
     String detalles;
     double precio;
     String estadoProducto;
+    boolean garantia; 
+    ArrayList<String> fallos;
 
     public Producto(String codigoProducto, String nombreComercial, String detalles, double precio, String estadoProducto) {
         this.codigoProducto = codigoProducto;
@@ -63,6 +67,14 @@ public class Producto {
 
     public void setEstadoProducto(String estadoProducto) {
         this.estadoProducto = estadoProducto;
+    }
+    
+    public boolean getGarantia() {
+        return garantia;
+    }
+    
+    public ArrayList<String> getFallos() {
+        return fallos;
     }
 
     @Override
