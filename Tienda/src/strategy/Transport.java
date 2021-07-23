@@ -1,4 +1,3 @@
-
 package strategy;//Context
 public class Transport  {
     

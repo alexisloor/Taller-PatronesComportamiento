@@ -1,5 +1,3 @@
-
-
 package strategy;
 public class AutomotiveStrategy implements Transport  {
         @Override

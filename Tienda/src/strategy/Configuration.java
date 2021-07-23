@@ -1,7 +1,7 @@
 package strategy;//Context
 public class Configuration  {
     
-    private TranportSrategy strategy;
+    private TransportSrategy strategy;
     
 
 
@@ -14,14 +14,6 @@ public class Configuration  {
                     return t;
 
             }
-
-
-
         }
-
-
-    
-    
-    
     
     }
