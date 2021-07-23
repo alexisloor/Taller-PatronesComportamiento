@@ -12,8 +12,8 @@ package strategy;
  */
 public interface TransportSrategy {
     
-    boolean loadProducts(ArrayList<Producto> products);
-    void    sendProducts(String destiny);
+   public boolean loadProducts(ArrayList<Producto> products);
+   public  void    sendProducts(String destiny);
 }
     
 
