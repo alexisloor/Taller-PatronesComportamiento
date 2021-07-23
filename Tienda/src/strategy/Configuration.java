@@ -5,7 +5,7 @@ public class Configuration  {
     
 
 
-        public Transport selecTransport(){
+        public Transport selectTransport(){
             Transport t = new Transport();
             String selection = Input("Seleccione el transporte: ");
             switch(selection){
